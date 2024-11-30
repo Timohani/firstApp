@@ -9,7 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.layout.GridPane;
 
-public class HelloController {
+public class TicTacToeController {
 
     @FXML
     private ResourceBundle resources;
@@ -19,7 +19,7 @@ public class HelloController {
 
     private char newSym = 'x';
 
-    private char gameField[][] = new char[3][3];
+    private final char[][] gameField = new char[3][3];
 
     private boolean isGame = true;
 
